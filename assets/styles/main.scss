@@ -1,0 +1,202 @@
+/* reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a,
+h2,
+h3 {
+  text-decoration: none;
+  &:visited {
+    color: inherit;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+ol,
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+img {
+  border: none;
+  object-fit: contain;
+}
+input,
+textarea {
+  outline: none;
+  border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  margin: 0;
+}
+html,
+body {
+  margin: 0;
+  line-height: 1;
+}
+/*----------------*/
+
+img {
+  width: 100%;
+}
+body {
+  background-color: #e7e7e7;
+}
+.page-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid red;
+  border-top: 0;
+  border-bottom: 0;
+}
+.header {
+  display: flex;
+  height: 120px;
+}
+.header__left {
+  margin-left: 40px;
+  margin-top: 20px;
+  a {
+    height: 100px;
+    display: flex;
+  }
+}
+.header__logo {
+}
+.header__right {
+  margin-left: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+.header__nav {
+  margin-bottom: 23px;
+}
+.header__ul {
+  display: flex;
+}
+.header__item {
+  margin-right: 22px;
+  a {
+    padding: 8px 22px 10px 22px;
+  }
+}
+.neo {
+}
+.socials {
+  display: flex;
+  margin-bottom: 28px;
+}
+.socials__item {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.social__telegram {
+}
+.social__whatsapp {
+}
+.top-banner {
+}
+.top-banner__left {
+}
+.top-banner-ava {
+}
+.top-banner-ava__pic {
+}
+.top-banner-ava__desc {
+}
+.top-banner-ava__name {
+}
+.top-banner-ava__spec {
+}
+.top-banner__middle {
+}
+.blue {
+}
+.gray {
+}
+.pink {
+}
+.black {
+}
+.order_btn {
+}
+.top-banner__right {
+}
+.dbl-block {
+}
+.dbl-block__text {
+}
+.dbl-block__shadow-text {
+}
+.dbl-block__desc {
+}
+.arrow-1 {
+}
+.dbl-block__pic {
+}
+.arrow-2 {
+}
+.arrow-3 {
+}
+.feedback-form {
+}
+.feedback-form__shadow-text {
+}
+.feedback-form__body {
+}
+.feedback-form__title {
+}
+.feedback-form__item {
+}
+.feedback-form__label {
+}
+.feedback-form__input {
+}
+.feedback-form__bottom {
+}
+.feedback-form__person-data {
+}
+.feedback-form__person-data-label {
+}
+.feedback-form__person-data-check {
+}
+.feedback-form__person-data-text {
+}
+.feedback-form__submit {
+}
+.footer {
+}
+.footer__top {
+}
+.footer__nav {
+}
+.footer__ul {
+}
+.footer__item {
+}
+.footer__socials {
+}
+.footer__logo {
+}
+.footer__bottom {
+}
+.copyright {
+}
