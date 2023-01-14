@@ -23,22 +23,22 @@
         <div class="header__right">
           <nav class="header__nav">
             <ul class="header__ul">
-              <li class="header__item neo"><a href="#">главная</a></li>
-              <li class="header__item neo"><a href="#">о нас</a></li>
-              <li class="header__item neo"><a href="#">портфолио</a></li>
-              <li class="header__item neo"><a href="#">услуги</a></li>
-              <li class="header__item neo"><a href="#">блог</a></li>
-              <li class="header__item neo"><a href="#">контакты</a></li>
+              <li class="header__item"><a class="neo" href="#">главная</a></li>
+              <li class="header__item"><a class="neo" href="#">о нас</a></li>
+              <li class="header__item"><a class="neo" href="#">портфолио</a></li>
+              <li class="header__item"><a class="neo" href="#">услуги</a></li>
+              <li class="header__item"><a class="neo" href="#">блог</a></li>
+              <li class="header__item"><a class="neo" href="#">контакты</a></li>
             </ul>
           </nav>
           <div class="socials">
-            <div class="socials__item neo">
-              <a href="#">
+            <div class="socials__item">
+              <a class="neo" href="#">
                 <img class="social__telegram" src="./assets/images/telegram.png" alt="">
               </a>
             </div>
-            <div class="socials__item neo">
-              <a href="#">
+            <div class="socials__item">
+              <a class="neo" href="#">
                 <img class="social__whatsapp" src="./assets/images/whatsapp.png" alt="">
               </a>
             </div>
@@ -99,7 +99,7 @@
           <h2>
             <span class="blue">ВАША ИДЕЯ +</span>
             <span class="pink">НАША РЕАЛИЗАЦИЯ</span>
-            <span class="blue">= УСПЕХ БИЗНЕСА</span>
+            <span class="blue_2">= УСПЕХ БИЗНЕСА</span>
           </h2>
           <div class="dbl-block__desc">
             <p>
@@ -203,11 +203,11 @@
               <div class="feedback-form__label">И я хочу сайт на тему</div><input type="text" class="feedback-form__input">
             </div>
             <div class="feedback-form__item">
-              <div class="feedback-form__label">Мой контактный номер</div><input type="number" class="feedback-form__input">
+              <div class="feedback-form__label">Мой контактный номер</div><input type="tel" placeholder="999 999 99 99" class="feedback-form__input">
             </div>
-            <div class="feedback-form__item">
+            <div class="feedback-form__item feedback-form__label_textarea">
               <div class="feedback-form__label">Мне бы хотелось дополнить ещё:</div>
-              <textarea placeholder="__________________________" class="feedback-form__input"></textarea>
+              <textarea placeholder="______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" class="feedback-form__textarea"></textarea>
             </div>
             <div class="feedback-form__bottom">
               <div class="feedback-form__person-data">
