@@ -101,12 +101,22 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 120px;
+  height: 90px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(231, 231, 231, 0.9607843137);
+}
+
+header.neo {
+  border-radius: 0;
 }
 
 .header__left {
   margin-left: 40px;
-  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,6 +126,10 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+main {
+  margin-top: 120px;
 }
 
 .header__right {
@@ -130,7 +144,7 @@ img {
 }
 
 .header__nav {
-  margin-bottom: 23px;
+  margin: 0 auto 23px;
 }
 
 .header__ul {
@@ -213,8 +227,12 @@ img {
   max-width: 445px;
 }
 
+.top-banner-ava__pic {
+  z-index: -1;
+}
+
 .top-banner-ava__desc {
-  margin-top: -105px;
+  margin-top: -68px;
   padding: 20px 15px;
   width: 350px;
   border-radius: 15px;
@@ -278,14 +296,17 @@ img {
   font-weight: 600;
   font-size: 27px;
   line-height: 33px;
+  border-radius: 15px;
+}
+
+.def_btn {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.top-banner__middle .order_btn::after {
+.def_btn::after {
   left: -100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -294,7 +315,7 @@ img {
   height: 0%;
   position: absolute;
 }
-.top-banner__middle .order_btn:hover::after {
+.def_btn:hover::after {
   width: 385%;
   height: 420%;
   -webkit-transform: rotate(45deg);
@@ -304,12 +325,12 @@ img {
           filter: blur(50px);
   z-index: -1;
 }
-.top-banner__middle .order_btn:hover {
+.def_btn:hover, .def_btn:hover input {
   color: #fff;
 }
 
 h1 span {
-  text-shadow: -3px -3px 7px rgba(255, 255, 255, 0.9215686275), 0px 0px 30px #ffffff;
+  text-shadow: -3px -3px 7px rgba(255, 255, 255, 0.6784313725);
 }
 
 .dbl-block {
@@ -370,7 +391,7 @@ h1 span {
   top: 10px;
   color: rgba(88, 88, 88, 0.15);
   right: inherit;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 150px;
   line-height: 64px;
 }
@@ -451,7 +472,7 @@ h1 span {
 
 .feedback-form__shadow-text {
   position: absolute;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 64px;
   line-height: 78px;
   text-align: right;
@@ -573,6 +594,7 @@ h1 span {
   line-height: 39px;
   border-radius: 15px;
   cursor: pointer;
+  width: 100%;
 }
 
 .footer {
@@ -585,7 +607,7 @@ h1 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 37px 79px 0 110px;
+  padding: 37px 100px 50px;
 }
 
 .footer__ul {
@@ -661,8 +683,9 @@ h1 span {
 }
 
 .footer__bottom {
-  padding: 73px 0 36px;
+  padding: 30px 0 36px;
   text-align: center;
+  border-top: 1px solid #fff;
 }
 
 .copyright {
@@ -689,9 +712,9 @@ h1 span {
           flex-direction: column;
   position: absolute;
   left: -15px;
-  top: 115px;
+  top: 90px;
   width: calc(100% + 30px);
-  padding: 0 40px;
+  padding: 30px 40px;
   background-color: #e7e7e7;
   height: 100vh;
   z-index: 999;
@@ -720,12 +743,12 @@ h1 span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 5px 4px;
+  padding: 7px 6px;
 }
 .mob-burger span {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-bottom: 7px solid #000000;
+  border-bottom: 5px solid #000000;
   border-radius: 10px;
 }
 
@@ -737,7 +760,7 @@ h1 span {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: relative;
-  top: 11px;
+  top: 10px;
   left: 2px;
 }
 .mob-burger_close span:nth-child(2) {
@@ -747,7 +770,7 @@ h1 span {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: relative;
-  top: -12px;
+  top: -11px;
   left: 2px;
 }
 
@@ -765,11 +788,11 @@ footer {
 .bright-6 {
   position: absolute;
   z-index: -2;
-  width: 700px;
-  height: 700px;
+  width: 1000px;
+  height: 1000px;
   border-radius: 50%;
-  -webkit-filter: blur(120px);
-          filter: blur(120px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }
 
 .bright-1 {
@@ -780,7 +803,7 @@ footer {
 
 .bright-2 {
   background-color: rgba(47, 43, 179, 0.1215686275);
-  bottom: 360px;
+  bottom: -600px;
   right: -700px;
 }
 
@@ -806,4 +829,40 @@ footer {
   background-color: rgba(47, 43, 179, 0.1215686275);
   bottom: -1000px;
   right: -700px;
+}
+
+.simple-page {
+  padding: 50px 120px;
+}
+.simple-page h1 {
+  font-size: 72px;
+  font-weight: 800;
+  margin: 20px 0 30px;
+}
+.simple-page p {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+table {
+  border-spacing: 0 50px;
+}
+
+td {
+  border: 60px solid rgba(91, 73, 199, 0.168627451);
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }

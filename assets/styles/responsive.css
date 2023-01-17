@@ -11,12 +11,15 @@
   .header__right {
     margin-left: 14px;
   }
-  .socials {
+  .header__right .socials {
     gap: 14px;
-    margin: 0 0 0 15px;
+    margin: 0 15px 0 15px;
   }
-  .socials .socials__item {
+  .header__right .socials .socials__item {
     margin: auto;
+  }
+  .header__nav {
+    margin: 0;
   }
   .top-banner-ava {
     width: 120px;
@@ -220,7 +223,7 @@
     margin-bottom: 35px;
   }
   .footer .footer__top {
-    padding: 0px;
+    padding: 0 0 20px 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -248,5 +251,17 @@
   }
   .footer .footer__bottom {
     padding: 34px 0 42px;
+  }
+  .bright-1,
+.bright-2,
+.bright-3,
+.bright-4,
+.bright-5,
+.bright-6 {
+    display: none;
+  }
+  header.neo {
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 }
