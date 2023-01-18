@@ -43,7 +43,6 @@
   <span class="bright-1"></span>
   <span class="bright-2"></span>
 </div>
-
 <!-- SUCCESS -->
 <div class="dbl-block">
   <div class="dbl-block__text neo wow animate__animated animate__fadeInLeft">
@@ -142,8 +141,6 @@
     </div>
   </div>
 </div>
-
-
 
 <?php require_once './feedback-form.php' ?>
 <?php require_once './footer.php' ?>

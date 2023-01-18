@@ -2,30 +2,169 @@
 <div class="simple-page">
     <div class="title">
         <h1>Услуги</h1>
-
-        <h2>Можно выбрать разработку сайта из нескольких тарифов</h2>
-        <table>
-            <tr>
-                <td>Лайт сайт</td>
-                <td>от 10000р</td>
-            </tr>
-            <tr>
-                <td>Классический сайт</td>
-                <td>от 20000р</td>
-            </tr>
-            <tr>
-                <td>Премиум сайт</td>
-                <td> от 30000р</td>
-            </tr>
-        </table>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia esse dolorum tenetur blanditiis est recusandae dolor officiis, adipisci omnis doloremque perferendis voluptatibus eius dolores ad quibusdam ducimus qui maxime?
-            Reiciendis, perspiciatis placeat dolorum dolorem distinctio consectetur quasi quisquam reprehenderit dicta odio quaerat natus provident dolor unde officiis alias! Expedita, ipsam. Nobis dicta soluta minus ea laudantium illum perspiciatis dolorum!
-            Nulla, expedita mollitia sint dolores eos commodi? Labore veniam autem, corrupti quidem, voluptates dolor dolore ex quaerat atque incidunt, odit consequatur deleniti perferendis fugit ad architecto rem vero magnam debitis.
-            Quisquam nulla, necessitatibus minima ducimus voluptatum animi voluptatem qui amet magnam delectus corrupti ipsa ex, odio voluptatibus sunt hic? Ipsa ab distinctio quam dolorem labore. Hic delectus qui ea? Corrupti?
-            Qui, totam. In mollitia consequatur quisquam reprehenderit nobis laudantium distinctio vero perspiciatis culpa, odit officiis sed, recusandae ipsa similique, quo tempora fugit veniam? Sapiente dicta harum qui veniam earum est!
-        </p>
     </div>
+    <p>
+        Мы беремся только за те работы, в которых мы хорошо разбираемся, так как нам важно качество и возможно дальнейшее сотрудничество с вами. Вот список тех услуг, которые мы можем предоставить:
+    </p>
+    <div class="services">
+        <div class="services__item neo">
+            <h2>Верстка лендинга</h2>
+            <div class="services__price">
+                <span class="services__price-count">5000</span>
+                <span class="services__price-currency">р</span>
+            </div>
+            <div class="services__desc">
+                Верстка одной страницы не более 5 блоков.
+            </div>
+            <div class="services__tech">
+                <span class="services__tech-title">
+                    Технологии для реализации:
+                </span>
+                <span class="services__tech-item">HTML</span>
+                <span class="services__tech-item">CSS</span>
+                <span class="services__tech-item">JavaScript</span>
+                <span class="services__tech-item">JQuery</span>
+            </div>
+            <div class="services__time">
+                <span class="services__time-title">
+                    Ориентировочный срок выполнения заказа:
+                </span>
+                <span>3</span><span>дня</span>
+            </div>
+            <div class="services__order neo def_btn">заказать</div>
+        </div>
+        <div class="services__item neo">
+            <h2>Верстка лендинга и его посадка на CMS WordPress</h2>
+            <div class="services__price">
+                <span class="services__price-count">10000</span>
+                <span class="services__price-currency">р</span>
+            </div>
+            <div class="services__desc">
+                Верстка одной страницы не более 5 блоков. Посадка на CMS WordPress дает возможность управлять контентом на сайте. Вы сможете изменять заголовки, описания, картинки и другой контент
+            </div>
+            <div class="services__tech">
+                <span class="services__tech-title">
+                    Технологии для реализации:
+                </span>
+                <span class="services__tech-item">HTML</span>
+                <span class="services__tech-item">CSS</span>
+                <span class="services__tech-item">JavaScript</span>
+                <span class="services__tech-item">JQuery</span>
+                <span class="services__tech-item">WordPress</span>
+            </div>
+            <div class="services__time">
+                <span class="services__time-title">
+                    Ориентировочный срок выполнения заказа:
+                </span>
+                <span>7</span><span>дней</span>
+            </div>
+            <div class="services__order neo def_btn">заказать</div>
+        </div>
+        <div class="services__item neo">
+            <h2>Верстка многостраничного сайта</h2>
+            <div class="services__price">
+                <span class="services__price-count">10000</span>
+                <span class="services__price-currency">р</span>
+            </div>
+            <div class="services__desc">
+                Верстка многостраничного сайта не более 5 страниц.
+            </div>
+            <div class="services__tech">
+                <span class="services__tech-title">
+                    Технологии для реализации:
+                </span>
+                <span class="services__tech-item">HTML</span>
+                <span class="services__tech-item">CSS</span>
+                <span class="services__tech-item">JavaScript</span>
+                <span class="services__tech-item">JQuery</span>
+            </div>
+            <div class="services__time">
+                <span class="services__time-title">
+                    Ориентировочный срок выполнения заказа:
+                </span>
+                <span>7</span><span>дней</span>
+            </div>
+            <div class="services__order neo def_btn">заказать</div>
+        </div>
+        <div class="services__item neo">
+            <h2>Верстка многостраничного сайта и его посадка на CMS WordPress</h2>
+            <div class="services__price">
+                <span class="services__price-count">10000</span>
+                <span class="services__price-currency">р</span>
+            </div>
+            <div class="services__desc">
+                Верстка многостраничного сайта не более 5 страниц. Посадка на CMS WordPress дает возможность управлять контентом на сайте. Вы сможете изменять заголовки, описания, картинки и другой контент
+            </div>
+            <div class="services__tech">
+                <span class="services__tech-title">
+                    Технологии для реализации:
+                </span>
+                <span class="services__tech-item">HTML</span>
+                <span class="services__tech-item">CSS</span>
+                <span class="services__tech-item">JavaScript</span>
+                <span class="services__tech-item">JQuery</span>
+                <span class="services__tech-item">WordPress</span>
+            </div>
+            <div class="services__time">
+                <span class="services__time-title">
+                    Ориентировочный срок выполнения заказа:
+                </span>
+                <span>14</span><span>дней</span>
+            </div>
+            <div class="services__order neo def_btn">заказать</div>
+        </div>
+        <div class="services__item neo">
+            <h2>Посадка на CMS WordPress готовой верстки 1 страницы</h2>
+            <div class="services__price">
+                <span class="services__price-count">3000</span>
+                <span class="services__price-currency">р</span>
+            </div>
+            <div class="services__desc">
+                Посадка на CMS WordPress готовой верстки 1 страницы
+            </div>
+            <div class="services__tech">
+                <span class="services__tech-title">
+                    Технологии для реализации:
+                </span>
+                <span class="services__tech-item">HTML</span>
+                <span class="services__tech-item">CSS</span>
+                <span class="services__tech-item">JavaScript</span>
+                <span class="services__tech-item">JQuery</span>
+                <span class="services__tech-item">WordPress</span>
+            </div>
+            <div class="services__time">
+                <span class="services__time-title">
+                    Ориентировочный срок выполнения заказа:
+                </span>
+                <span>3</span><span>дня</span>
+            </div>
+            <div class="services__order neo def_btn">заказать</div>
+        </div>
+        <div class="services__item neo">
+            <h2>Дизан в Figma 1 страницы для сайта</h2>
+            <div class="services__price">
+                <span class="services__price-count">3000</span>
+                <span class="services__price-currency">р</span>
+            </div>
+            <div class="services__desc">
+                Дизан в Figma 1 страницы для сайта. По брифу или примерам из нескольких похожих сайтов.
+            </div>
+            <div class="services__tech">
+                <span class="services__tech-title">
+                    Технологии для реализации:
+                </span>
+                <span class="services__tech-item">Figma</span>
+            </div>
+            <div class="services__time">
+                <span class="services__time-title">
+                    Ориентировочный срок выполнения заказа:
+                </span>
+                <span>3</span><span>дня</span>
+            </div>
+            <div class="services__order neo def_btn">заказать</div>
+        </div>
+    </div>
+
 </div>
 <?php require_once './feedback-form.php' ?>
 <?php require_once './footer.php' ?>

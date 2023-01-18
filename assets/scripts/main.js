@@ -50,7 +50,7 @@
     $('.order_btn').on('click', function (e) {
       $('html,body')
         .stop()
-        .animate({ scrollTop: $('.feedback-form').offset().top - 100 }, 700);
+        .animate({ scrollTop: $('.feedback-form').offset().top - 120 }, 700);
       e.preventDefault();
     });
     // end easy scroll on Contact Us

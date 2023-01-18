@@ -163,8 +163,10 @@
       top: -9px;
     }
     .feedback-form__title {
-      font-size: 50px;
-      line-height: 61px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: -5px;
+      display: inline-block;
     }
     form {
       margin-top: 20px;
@@ -201,8 +203,8 @@
           line-height: 27px;
         }
         .feedback-form__submit {
-          font-size: 23px;
-          line-height: 28px;
+          font-size: 18px;
+          line-height: 10px;
           border-radius: 5px;
         }
       }
@@ -226,7 +228,11 @@
         gap: 28px;
         justify-content: center;
         .footer__item {
-          width: 132px;
+          width: 120px;
+          height: 35px;
+          a {
+            font-size: 13px;
+          }
         }
       }
     }
@@ -254,5 +260,16 @@
   }
   header.neo {
     box-shadow: none;
+  }
+  main {
+    margin-top: 90px;
+  }
+
+  // simple-page
+  .simple-page {
+    padding: 10px 5px;
+    h1 {
+      font-size: 35px;
+    }
   }
 }

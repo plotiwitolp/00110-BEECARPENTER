@@ -1,6 +1,4 @@
 </main>
-
-<!-- footer -->
 <footer class="footer neo">
     <div class="footer__top">
 

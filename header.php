@@ -13,9 +13,6 @@
 
 <body>
     <div class="page-wrapper-full">
-
-
-        <!-- header -->
         <header>
             <div class="page-wrapper">
                 <div class="header">
@@ -31,7 +28,7 @@
                                 <li class="header__item"><a class="neo def_btn" href="./about-us.php">о нас</a></li>
                                 <li class="header__item"><a class="neo def_btn" href="./portfolio.php">портфолио</a></li>
                                 <li class="header__item"><a class="neo def_btn" href="./services.php">услуги</a></li>
-                                <li class="header__item"><a class="neo def_btn" href="./blog.php">блог</a></li>
+                                <!-- <li class="header__item"><a class="neo def_btn" href="./blog.php">блог</a></li> -->
                                 <li class="header__item"><a class="neo def_btn" href="./contacts.php">контакты</a></li>
                             </ul>
                         </nav>
@@ -57,5 +54,4 @@
             </div>
         </header>
         <div class="page-wrapper">
-            <!-- main -->
             <main>

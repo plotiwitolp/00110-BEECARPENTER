@@ -163,8 +163,10 @@
     top: -9px;
   }
   .feedback-form .feedback-form__title {
-    font-size: 50px;
-    line-height: 61px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: -5px;
+    display: inline-block;
   }
   .feedback-form form {
     margin-top: 20px;
@@ -209,8 +211,8 @@
     line-height: 27px;
   }
   .feedback-form form .feedback-form__bottom .feedback-form__submit {
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 10px;
     border-radius: 5px;
   }
   .dbl-block > .neo,
@@ -237,7 +239,11 @@
             justify-content: center;
   }
   .footer .footer__top .footer__ul .footer__item {
-    width: 132px;
+    width: 120px;
+    height: 35px;
+  }
+  .footer .footer__top .footer__ul .footer__item a {
+    font-size: 13px;
   }
   .footer .footer__socials {
     margin: 50px auto 32px;
@@ -263,5 +269,14 @@
   header.neo {
     -webkit-box-shadow: none;
             box-shadow: none;
+  }
+  main {
+    margin-top: 90px;
+  }
+  .simple-page {
+    padding: 10px 5px;
+  }
+  .simple-page h1 {
+    font-size: 35px;
   }
 }

@@ -3,12 +3,18 @@
     <div class="title">
         <h1>О нас</h1>
         <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos officiis quae asperiores neque fugit incidunt laudantium ullam, inventore quisquam labore error ducimus quasi suscipit impedit iste omnis magni. Enim, iusto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor asperiores libero placeat maxime enim est delectus, quas fuga quibusdam consectetur rerum aut ea, nulla dolore? Sequi, atque laborum? Esse, sequi.
-            Amet tempora culpa porro ducimus nemo incidunt unde laudantium placeat rem totam soluta minus quisquam, laboriosam provident perspiciatis dolor maxime debitis aut ipsum alias suscipit! Quam quisquam laudantium blanditiis officia?
-            Incidunt aperiam quaerat repudiandae blanditiis non alias dolores laboriosam rerum magni ullam pariatur, nihil facere iure repellat officiis est excepturi veniam in hic quas? Tempore pariatur dolorem maxime placeat est!
-            Aperiam, provident? Quidem quo amet repudiandae veritatis, fugiat voluptate recusandae consequuntur officia eaque officiis quibusdam aspernatur explicabo corporis? Odio assumenda corporis incidunt dignissimos. Ipsa voluptatum quod sed inventore molestiae quasi!
-            Saepe error reiciendis minus numquam eaque itaque, odio nemo exercitationem. Delectus error provident fugit reprehenderit ad incidunt minus esse alias, qui exercitationem itaque recusandae nemo atque magnam velit, dolor similique.
+            Мы команда из двух человек, которые имеют опыт и понимание в разработке сайтов начиная от верстки и заканчивая удобной административной панелью. Нам нравится то, что мы делаем и нам нравится постоянно совершенствоваться в этом.
+        </p>
+        <p>
+            Путь к тому, чтобы успешно разбираться во многих тонкостях сайтостроения начинается у нас в 2021 году. За это время мы сделали более 10 крупных проектов и более 100 доработок для сайтов разной сложности.
+        </p>
+        <p>
+            Больше всего из всех технологий для разработки сайтов, нам нравятся такие как HTML, CSS, JavaScript (в частности библиотека JQuery) и система управления контентом WordPress. Плюс мы умеем работать с Figma и немного в Photoshop.
+        <p>
+            На текущем сайте, который мы сделали для себя, можно увидеть все технологии, которые мы применяем. Также можете посмотреть больше наших работ на странице <a href="./portfolio.php">Портфолио</a>
         </p>
     </div>
+
 </div>
+<?php require_once './feedback-form.php' ?>
 <?php require_once './footer.php' ?>

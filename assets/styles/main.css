@@ -243,6 +243,7 @@ main {
   font-size: 48px;
   line-height: 59px;
   text-align: center;
+  color: #383838;
 }
 
 .top-banner-ava__spec {
@@ -250,6 +251,7 @@ main {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
+  color: #383838;
 }
 
 .top-banner__middle {
@@ -288,7 +290,7 @@ main {
   margin-left: 72px;
   font-size: 72px;
   line-height: 88px;
-  color: #000000;
+  color: #383838;
 }
 .top-banner__middle .order_btn {
   margin-top: 50px;
@@ -297,6 +299,7 @@ main {
   font-size: 27px;
   line-height: 33px;
   border-radius: 15px;
+  color: #383838;
 }
 
 .def_btn {
@@ -487,8 +490,10 @@ h1 span {
 
 .feedback-form__title {
   font-weight: 800;
-  font-size: 96px;
-  line-height: 117px;
+  font-size: 60px;
+  line-height: 55px;
+  display: inline-block;
+  margin-top: 35px;
 }
 
 .feedback-form__item {
@@ -544,6 +549,9 @@ h1 span {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .feedback-form__person-data {
@@ -832,12 +840,19 @@ footer {
 }
 
 .simple-page {
-  padding: 50px 120px;
+  padding: 25px 0 50px;
 }
 .simple-page h1 {
   font-size: 72px;
   font-weight: 800;
   margin: 20px 0 30px;
+  color: #383838;
+}
+.simple-page h2 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .simple-page p {
   display: block;
@@ -847,22 +862,259 @@ footer {
   font-size: 20px;
   line-height: 33px;
 }
-
-table {
-  border-spacing: 0 50px;
+.simple-page a {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #6a2497;
+          text-decoration-color: #6a2497;
 }
 
-td {
-  border: 60px solid rgba(91, 73, 199, 0.168627451);
-  padding: 30px;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 35px;
+  margin-top: 35px;
 }
-
-h2 {
-  font-size: 52px;
-  font-weight: 700;
-  margin-top: 30px;
+.services .services__item {
+  width: 30%;
+  padding: 15px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.services .services__item h2 {
+  font-size: 22px;
+}
+.services .services__item .services__price {
+  font-size: 32px;
   margin-bottom: 20px;
+}
+.services .services__item .services__desc {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.services .services__item .services__tech {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.services .services__item .services__tech .services__tech-title {
+  display: block;
+  margin-bottom: 5px;
+}
+.services .services__item .services__time {
+  margin-bottom: 25px;
+}
+.services .services__item .services__order {
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  margin: auto 0 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.portfolio .portfolio__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.portfolio .portfolio__item .portfolio__title {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 270px;
+  color: #383838;
+  margin: 40px 50px 70px auto;
+}
+.portfolio .portfolio__item .portfolio__view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.portfolio .portfolio__item .portfolio__view img {
+  -webkit-box-shadow: 0px 20px 20px #979797;
+          box-shadow: 0px 20px 20px #979797;
+  border-radius: 10px;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-desk {
+  width: 100%;
+  height: 540px;
+  -webkit-perspective: 200px;
+          perspective: 200px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-desk .portfolio__img-desk-title {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-desk .portfolio__img-desk-preview {
+  width: 750px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transform: rotateX(0deg) rotateY(7deg);
+          transform: rotateX(0deg) rotateY(7deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-desk .portfolio__img-desk-preview:hover {
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+          transform: rotateX(0deg) rotateY(0deg);
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-mob {
+  -webkit-perspective: 50px;
+          perspective: 50px;
+  height: 340px;
+  position: relative;
+  right: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-mob .portfolio__img-mob-title {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-mob .portfolio__img-mob-preview {
+  width: 240px;
+  position: relative;
+  right: -50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transform: rotateX(0deg) rotateY(-4deg);
+          transform: rotateX(0deg) rotateY(-4deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.portfolio .portfolio__item .portfolio__view .portfolio__img-mob .portfolio__img-mob-preview:hover {
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+          transform: rotateX(0deg) rotateY(0deg);
+}
+.portfolio .portfolio__item .portfolio__desc {
+  margin-top: 115px;
+  padding: 5px 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.portfolio .portfolio__item .portfolio__tech {
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 23px;
+}
+.portfolio .portfolio__item .portfolio__link {
+  padding: 5px 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.portfolio .portfolio__item .portfolio__time {
+  font-size: 18px;
+  line-height: 25px;
+  padding: 5px 10px 50px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+.contact .contact-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.contact .contact-wrap .contact__item {
+  padding: 20px 30px;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .contact-wrap .contact__item .contact__item-pic {
+  margin-right: 30px;
+}
+.contact .contact-wrap .contact__item .contact__item-pic img {
+  width: 40px;
+  height: 40px;
+}
+.contact .contact-wrap .contact__item .contact__item-title {
+  font-weight: 600;
+  margin-right: 10px;
+}
+.contact .contact-wrap .contact__item .contact__item-body {
+  font-weight: 400;
+}
+.contact .contact-map {
+  width: 70%;
+  height: 292px;
+  overflow: hidden;
 }
