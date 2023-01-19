@@ -1,10 +1,10 @@
-<?php require_once './header.php' ?>
+<?php get_header(); ?>
 <!-- top-banner -->
 <div class="top-banner">
   <div class="top-banner__left">
     <div class="top-banner-ava">
       <div class="top-banner-ava__pic">
-        <img class="animate__animated animate__fadeInLeft" src="./assets/images/ava-nadya-v2.png" alt="">
+        <img class="animate__animated animate__fadeInLeft" src="<?php bloginfo('template_url'); ?>/assets/images/ava-nadya-v2.png" alt="">
       </div>
       <div class="top-banner-ava__desc">
         <div class="top-banner-ava__name">
@@ -28,7 +28,7 @@
   <div class="top-banner__right">
     <div class="top-banner-ava">
       <div class="top-banner-ava__pic">
-        <img class="animate__animated animate__fadeInRight" src="./assets/images/ava-vanya-v2.png" alt="">
+        <img class="animate__animated animate__fadeInRight" src="<?php bloginfo('template_url'); ?>/assets/images/ava-vanya-v2.png" alt="">
       </div>
       <div class="top-banner-ava__desc">
         <div class="top-banner-ava__name">
@@ -60,7 +60,7 @@
     <span class="arrow-1"></span>
   </div>
   <div class="dbl-block__pic dbl-block__pic_show-mob">
-    <img src="./assets/images/img-7.png" alt="">
+    <img src="<?php bloginfo('template_url'); ?>/assets/images/img-7.png" alt="">
   </div>
   <span class="bright-3"></span>
   <span class="bright-4"></span>
@@ -69,7 +69,7 @@
 <!-- STEP 1 -->
 <div class="dbl-block">
   <div class="dbl-block__pic">
-    <img src="./assets/images/img-2.png" alt="">
+    <img src="<?php bloginfo('template_url'); ?>/assets/images/img-2.png" alt="">
   </div>
   <div class="dbl-block__text neo wow animate__animated animate__fadeInRight">
     <div class="dbl-block__shadow-text">STEP 1</div>
@@ -114,14 +114,14 @@
     <span class="arrow-3"></span>
   </div>
   <div class="dbl-block__pic">
-    <img src="./assets/images/img-3.png" alt="">
+    <img src="<?php bloginfo('template_url'); ?>/assets/images/img-3.png" alt="">
   </div>
 </div>
 
 <!-- STEP 3 -->
 <div class="dbl-block">
   <div class="dbl-block__pic">
-    <img src="./assets/images/img-4.png" alt="">
+    <img src="<?php bloginfo('template_url'); ?>/assets/images/img-4.png" alt="">
   </div>
   <div class="dbl-block__text neo wow animate__animated animate__fadeInRight">
     <div class="dbl-block__shadow-text">STEP 3</div>
@@ -141,6 +141,8 @@
     </div>
   </div>
 </div>
+<?php get_template_part('feedback-form'); ?>
+<?php // require_once './feedback-form.php' 
+?>
 
-<?php require_once './feedback-form.php' ?>
-<?php require_once './footer.php' ?>
+<?php get_footer(); ?>

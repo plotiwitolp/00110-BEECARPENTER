@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bee Carpenter | Разработка сайтов</title>
-    <link rel="stylesheet" href="./assets/styles/main.css">
-    <link rel="stylesheet" href="./assets/styles/responsive.css">
-    <link rel="stylesheet" href="./assets/libs/animatecss/animate.min.css">
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -18,7 +16,7 @@
                 <div class="header">
                     <div class="header__left">
                         <a href="./">
-                            <img src="./assets/images/LOGO-v1.png" alt="" class="header__logo">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/images/LOGO-v1.png" alt="" class="header__logo">
                         </a>
                     </div>
                     <div class="header__right">
@@ -40,12 +38,12 @@
                         <div class="socials">
                             <div class="socials__item">
                                 <a class="neo def_btn" href="#">
-                                    <img class="social__telegram" src="./assets/images/telegram.png" alt="">
+                                    <img class="social__telegram" src="<?php bloginfo('template_url'); ?>/assets/images/telegram.png" alt="">
                                 </a>
                             </div>
                             <div class="socials__item">
                                 <a class="neo def_btn" href="#">
-                                    <img class="social__whatsapp" src="./assets/images/whatsapp.png" alt="">
+                                    <img class="social__whatsapp" src="<?php bloginfo('template_url'); ?>/assets/images/whatsapp.png" alt="">
                                 </a>
                             </div>
                         </div>

@@ -45,7 +45,7 @@
     });
     wow.init();
     // end WOW
-
+    console.log('test');
     // start easy scroll on Contact Us
     $('.order_btn').on('click', function (e) {
       $('html,body')

@@ -17,18 +17,18 @@
             <div class="socials">
                 <div class="socials__item neo def_btn">
                     <a href="#">
-                        <img class="social__telegram" src="./assets/images/telegram.png" alt="">
+                        <img class="social__telegram" src="<?php bloginfo('template_url'); ?>/assets/images/telegram.png" alt="">
                     </a>
                 </div>
                 <div class="socials__item neo def_btn">
                     <a href="#">
-                        <img class="social__whatsapp" src="./assets/images/whatsapp.png" alt="">
+                        <img class="social__whatsapp" src="<?php bloginfo('template_url'); ?>/assets/images/whatsapp.png" alt="">
                     </a>
                 </div>
             </div>
         </div>
         <div class="footer__logo">
-            <img src="./assets/images/LOGO-v1.png" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/LOGO-v1.png" alt="">
         </div>
     </div>
 
@@ -39,9 +39,7 @@
 </footer>
 </div>
 </div>
-<script src="./assets/scripts/jquery-3.6.0.min.js"></script>
-<script src="./assets/libs/wow/wow.min.js"></script>
-<script src="./assets/scripts/main.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>
