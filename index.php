@@ -142,7 +142,5 @@
   </div>
 </div>
 <?php get_template_part('feedback-form'); ?>
-<?php // require_once './feedback-form.php' 
-?>
 
 <?php get_footer(); ?>
