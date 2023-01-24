@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<!-- top-banner -->
+
 <div class="top-banner">
   <div class="top-banner__left">
     <div class="top-banner-ava">
@@ -43,7 +43,7 @@
   <span class="bright-1"></span>
   <span class="bright-2"></span>
 </div>
-<!-- SUCCESS -->
+
 <div class="dbl-block">
   <div class="dbl-block__text neo wow animate__animated animate__fadeInLeft">
     <div class="dbl-block__shadow-text">SUCCESS</div>
@@ -66,7 +66,6 @@
   <span class="bright-4"></span>
 </div>
 
-<!-- STEP 1 -->
 <div class="dbl-block">
   <div class="dbl-block__pic">
     <img src="<?php bloginfo('template_url'); ?>/assets/images/img-2.png" alt="">
@@ -93,7 +92,6 @@
   <span class="bright-6"></span>
 </div>
 
-<!-- STEP 2 -->
 <div class="dbl-block">
   <div class="dbl-block__text neo wow animate__animated animate__fadeInLeft">
     <div class="dbl-block__shadow-text">STEP 2</div>
@@ -118,7 +116,6 @@
   </div>
 </div>
 
-<!-- STEP 3 -->
 <div class="dbl-block">
   <div class="dbl-block__pic">
     <img src="<?php bloginfo('template_url'); ?>/assets/images/img-4.png" alt="">
